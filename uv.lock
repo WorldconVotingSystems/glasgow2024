@@ -1,9 +1,6 @@
 version = 1
 requires-python = ">=3.12"
 
-[options]
-prerelease-mode = "allow"
-
 [[package]]
 name = "amqp"
 version = "5.2.0"
@@ -48,15 +45,14 @@ wheels = [
 
 [[package]]
 name = "beautifulsoup4"
-version = "4.13.0b2"
+version = "4.12.3"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "soupsieve" },
-    { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/81/bd/c97d94e2b96f03d1c50bc9de04130e014eda89322ba604923e0c251eb02e/beautifulsoup4-4.13.0b2.tar.gz", hash = "sha256:c684ddec071aa120819889aa9e8940f85c3f3cdaa08e23b9fa26510387897bd5", size = 550258 }
+sdist = { url = "https://files.pythonhosted.org/packages/b3/ca/824b1195773ce6166d388573fc106ce56d4a805bd7427b624e063596ec58/beautifulsoup4-4.12.3.tar.gz", hash = "sha256:74e3d1928edc070d21748185c46e3fb33490f22f52a3addee9aee0f4f7781051", size = 581181 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/14/7e/e4313dad823c3a0751c99b9bc0182b1dd19aea164ce7445e9a70429b9e92/beautifulsoup4-4.13.0b2-py3-none-any.whl", hash = "sha256:7e05ad0b6c26108d9990e2235e8a9b4e2c03ead6f391ceb60347f8ebea6b80ba", size = 179607 },
+    { url = "https://files.pythonhosted.org/packages/b1/fe/e8c672695b37eecc5cbf43e1d0638d88d66ba3a44c4d321c796f4e59167f/beautifulsoup4-4.12.3-py3-none-any.whl", hash = "sha256:b80878c9f40111313e55da8ba20bdba06d8fa3969fc68304167741bbf9e082ed", size = 147925 },
 ]
 
 [[package]]
@@ -158,7 +154,7 @@ wheels = [
 
 [[package]]
 name = "celery"
-version = "5.5.0b3"
+version = "5.4.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "billiard" },
@@ -168,11 +164,12 @@ dependencies = [
     { name = "click-repl" },
     { name = "kombu" },
     { name = "python-dateutil" },
+    { name = "tzdata" },
     { name = "vine" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/59/a6/f008a5f4d7b558ac45115d76f01047d7e81f8eb1f3442b8ef7d083de3a18/celery-5.5.0b3.tar.gz", hash = "sha256:8b79ccd27e28ce3d4a0102b25d802738f587cd08f95674a306faa8f8726f91d9", size = 1610530 }
+sdist = { url = "https://files.pythonhosted.org/packages/8a/9c/cf0bce2cc1c8971bf56629d8f180e4ca35612c7e79e6e432e785261a8be4/celery-5.4.0.tar.gz", hash = "sha256:504a19140e8d3029d5acad88330c541d4c3f64c789d85f94756762d8bca7e706", size = 1575692 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/67/a4/8b4cbfa6729cfa9f9dac82870ffaaf12559dc8ebf62ec4345eef8de182aa/celery-5.5.0b3-py3-none-any.whl", hash = "sha256:f40ae8ffd7e74a6273dd41b95f7e2cf5792dcc5dad224456082b84f668255115", size = 430804 },
+    { url = "https://files.pythonhosted.org/packages/90/c4/6a4d3772e5407622feb93dd25c86ce3c0fee746fa822a777a627d56b4f2a/celery-5.4.0-py3-none-any.whl", hash = "sha256:369631eb580cf8c51a82721ec538684994f8277637edde2dfc0dacd73ed97f64", size = 425983 },
 ]
 
 [[package]]
@@ -339,11 +336,11 @@ wheels = [
 
 [[package]]
 name = "defusedxml"
-version = "0.8.0rc2"
+version = "0.7.1"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/5e/3b/b8849dcc3f96913924137dc4ea041d74aa513a3c5dda83d8366491290c74/defusedxml-0.8.0rc2.tar.gz", hash = "sha256:138c7d540a78775182206c7c97fe65b246a2f40b29471e1a2f1b0da76e7a3942", size = 52575 }
+sdist = { url = "https://files.pythonhosted.org/packages/0f/d5/c66da9b79e5bdb124974bfe172b4daf3c984ebd9c2a06e2b8a4dc7331c72/defusedxml-0.7.1.tar.gz", hash = "sha256:1bb3032db185915b62d7c6209c5a8792be6a32ab2fedacc84e01b52c51aa3e69", size = 75520 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/5d/c7/6b4ad89ca6f7732ff97ce5e9caa6fe739600d26c5d53c20d0bf9abb79ec5/defusedxml-0.8.0rc2-py2.py3-none-any.whl", hash = "sha256:1c812964311154c3bf4aaf3bc1443b31ee13530b7f255eaaa062c0553c76103d", size = 25756 },
+    { url = "https://files.pythonhosted.org/packages/07/6c/aa3f2f849e01cb6a001cd8554a88d4c77c5c1a31c95bdf1cf9301e6d9ef4/defusedxml-0.7.1-py2.py3-none-any.whl", hash = "sha256:a352e7e428770286cc899e2542b6cdaedb2b4953ff269a210103ec58f6198a61", size = 25604 },
 ]
 
 [[package]]
@@ -641,11 +638,11 @@ wheels = [
 
 [[package]]
 name = "dnspython"
-version = "2.7.0rc1"
+version = "2.6.1"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/dd/2f/299f646d4f1b7dd9daaaefedccc313770613cd4d201f6ddba796818c79f8/dnspython-2.7.0rc1.tar.gz", hash = "sha256:41db6ac9d09cee920af813e6bdcddcfe0bdf441682c614d4d99512b805c85b0e", size = 345136 }
+sdist = { url = "https://files.pythonhosted.org/packages/37/7d/c871f55054e403fdfd6b8f65fd6d1c4e147ed100d3e9f9ba1fe695403939/dnspython-2.6.1.tar.gz", hash = "sha256:e8f0f9c23a7b7cb99ded64e6c3a6f3e701d78f50c55e002b839dea7225cff7cc", size = 332727 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/39/f7/57904dd2af151cd771f6a73b0e49f546b060eb2a9e89493db99639a6d805/dnspython-2.7.0rc1-py3-none-any.whl", hash = "sha256:a39c1061f6866c5c5f46892604f1cc88e75a418a380938b66743709a642487d9", size = 313632 },
+    { url = "https://files.pythonhosted.org/packages/87/a1/8c5287991ddb8d3e4662f71356d9656d91ab3a36618c3dd11b280df0d255/dnspython-2.6.1-py3-none-any.whl", hash = "sha256:5ef3b9680161f6fa89daf8ad451b5f1a33b18ae8a1c6778cdf4b43f08c0a6e50", size = 307696 },
 ]
 
 [[package]]
@@ -730,7 +727,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "gunicorn", extras = ["eventlet"], specifier = ">=21.2.0" },
-    { name = "nomnom-hugoawards" },
+    { name = "nomnom-hugoawards", specifier = "==2024.1.0" },
 ]
 
 [[package]]
@@ -902,7 +899,7 @@ wheels = [
 
 [[package]]
 name = "nomnom-hugoawards"
-version = "2025.0.0b1"
+version = "2024.1.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "boto3" },
@@ -944,9 +941,9 @@ dependencies = [
     { name = "svcs" },
     { name = "whitenoise" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/d6/de/720dd84f60e1042a11b39d9825aba113444330caf38ac43bc1fbc4c12e25/nomnom_hugoawards-2025.0.0b1.tar.gz", hash = "sha256:5908f84fa2694618a3a4836c9168ecb12ef4aff94488b1e9e3fcb447dfcafec0", size = 1965190 }
+sdist = { url = "https://files.pythonhosted.org/packages/a6/93/9482f45094fb130b857f1a6e52645482104a811122b7c8e378322a3c413a/nomnom_hugoawards-2024.1.0.tar.gz", hash = "sha256:c158a730fa814bcda1ba73771027deae0532b6bf54190537e6e9f8e690b122e5", size = 1876416 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/90/43/fee61b2b42c96be118c3da2266f04491f0755110b4babcf4700fc5329c65/nomnom_hugoawards-2025.0.0b1-py3-none-any.whl", hash = "sha256:94d5a894624fafc4d32552179c520879869268d340012ef9c9c1f7240099507b", size = 1634371 },
+    { url = "https://files.pythonhosted.org/packages/40/da/b899f49d1947e4eb1d0dbdbe2b521dc30a770c732725a4f971af2471848a/nomnom_hugoawards-2024.1.0-py3-none-any.whl", hash = "sha256:34382523324ebb5a9daa9f4e51f731bbb00552deafb8e7b3343643e78bdd8954", size = 1628862 },
 ]
 
 [[package]]

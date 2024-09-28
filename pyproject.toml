@@ -4,7 +4,8 @@ version = "1.0.0"
 description = "Convention app for Glasgow 2024"
 authors = []
 dependencies = [
-  "nomnom-hugoawards",
+  # pin this forever; this is the frozen-in-amber nomnom release for Glasgow
+  "nomnom-hugoawards==2024.1.0",
   "gunicorn[eventlet]>=21.2.0",
 ]
 requires-python = ">=3.12"
