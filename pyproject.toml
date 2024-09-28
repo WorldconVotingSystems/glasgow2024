@@ -1,0 +1,19 @@
+[project]
+name = "glasgow-2024"
+version = "1.0.0"
+description = "Convention app for Glasgow 2024"
+authors = []
+dependencies = [
+  "nomnom-hugoawards",
+  "gunicorn[eventlet]>=21.2.0",
+]
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[tool.ruff.lint.isort]
+known-first-party = ["glasgow_2024", "glasgow_2024_app"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

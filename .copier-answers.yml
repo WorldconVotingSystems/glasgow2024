@@ -1,0 +1,10 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v2025.0.0b1-21-g4b25b9e
+_src_path: ../nomnom
+advisory_votes: true
+convention_name: Glasgow 2024
+domain_name: glasgow2024.org
+email_domain_name: glasgow2024.org
+hugo_packet_enabled: true
+project_slug: glasgow-2024
+use_development: false
