@@ -6,14 +6,16 @@ from nomnom.convention import (
 )
 
 theme = ConventionTheme(
-    stylesheets="css/glasgow-2024.css",
-    font_urls=[],
+    stylesheets="css/glasgow2024.css",
+    font_urls=[
+        "https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&family=Gruppo&display=swap"
+    ],
 )
 
 convention = ConventionConfiguration(
-    name="Glasgow 2024",
-    subtitle="Convention Subtitle (in glasgow_2024_app/convention.py)",
-    slug="glasgow-2024",
+    name="Glasgow in 2024",
+    subtitle="A Worldcon For Our Futures",
+    slug="glasgow2024",
     site_url="https://glasgow2024.org",
     nomination_eligibility_cutoff=datetime(2024, 2, 1, 0, 0, 0, tzinfo=timezone.utc),
     authentication_backends=[],
@@ -22,7 +24,7 @@ convention = ConventionConfiguration(
     hugo_packet_backend="digitalocean",
     registration_email="registration@glasgow2024.org",
     logo="images/logo_withouttitle_transparent-300x293.png",
-    logo_alt_text="Glasgow 2024 logo",
+    logo_alt_text="Glasgow in 2024 logo",
     urls_app_name="glasgow_2024_app",
     advisory_votes_enabled=True,
 )
